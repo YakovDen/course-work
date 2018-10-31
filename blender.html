@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Blender</title>
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+    <link rel='stylesheet' href='https://f.usemind.org/f/1/mn2/s.css' />    
+    <link rel="stylesheet" href="css/blender.css">   
+</head>
+<body>
+    <a href="/promotions/odinodin/" class="d-flex justify-content-center top-banner" style="background-color: #f8f5ee;">
+    <img src="img/action.png"></a> 
+    <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+           <div class="navbar-header">                                       
+                <a href="index.html" class="header_new_logo">
+                            <img src="img/oursson_logo.png">
+                </a> 
+                <button class="navbar-toggler nav_btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        <div class="navbar-collapse collapse" id="navbarNav">
+           <ul class="navbar-nav  flex-fill justify-content-between mr-sm-auto mr-md-auto mr-lg-auto">                       
+                <li class="nav-item active">
+                    <a href="#" class="nav-link" href="#">О магазине <span class="caret sr-only">(current)</span></a>                
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Оплата</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Доставка</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Поддержка</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Новости</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Контакты</a>
+                </li>            
+                <li class="nav-item">
+                    <a class="nav-link disabled phone" href="#"><i class="icon-phone"></i> 8 (800) 100 8 708</a>
+                </li>
+            </ul>
+        </div>    
+        </div>         
+    </nav>
+    <div class="container w">
+            <div class="row menu">                   
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 left_menu justify-content-between">
+                        <div  class="vmenu" style="margin-top: 5%" id="myBtnContainer">
+                            <h5>
+                                Выбор покупателя 
+                            </h5>                           
+                            <div id="s1">                        
+                                <div class="bt active" onclick="filterSelection('all')"><span class="label">Show all</span></div><br>
+                                <div class="bt" onclick="filterSelection('oven');"><span class="label">Oven</span></div><br>                                
+                                <div class="bt" onclick="filterSelection('blender');"><span class="label">Blender</span></div><br>
+                                <div class="bt" onclick="filterSelection('multicooker');"><span class="label">Multicooker</span></div><br>                                                                                                    
+                            </div>                                     
+                        </div> 
+                        <div class="boxImg d-none d-lg-block">
+                            <img class="boxImg" src="img/animation/APP.png">
+                        </div>                             
+                    </div>
+                </div>
+         <div class="row_product" style="margin-top: -60%">            
+            <div class="ovens product flex-wrap offset-xs-4 col-xs-8 offset-sm-3 col-sm-8 offset-md-4 col-md-8 col-lg-9 offset-lg-3  justify-content-between">                   
+                <div class="equipment oven p-2 r" ><a href="#"><img src="img/oven/oven1.png"></a>
+                    <p class="product_mini_name">Мини-духовка</p>
+                    <p class="product_mini_card_descr">MO2300/IV</p>
+                    <span class="ofer-price">3 790</span> 
+                    <button class="add_item btn" data-id="30"></button>                  
+                </div>
+                <div class="equipment oven p-2 r"><a href="#"><img src="img/oven/oven2.png"></a>
+                    <p class="product_mini_name">Мини-духовка</p>
+                    <p class="product_mini_card_descr">MO2610/RD</p>
+                    <span class="ofer-price">3 790</span>
+                    <button class="add_item btn" data-id="11"></button>                  
+                </div>
+                <div class="equipment oven p-2 r"><a href="#"><img src="img/oven/oven3.png"></a>
+                    <p class="product_mini_name">Мини-духовка</p>
+                    <p class="product_mini_card_descr">MO3020/DC</p>
+                    <span class="ofer-price">3 790</span>
+                    <button class="add_item btn" data-id="12"></button>              
+                </div>
+                <div class="equipment oven p-2 r"><a href="#"><img src="img/oven/oven4.png"></a>
+                    <p class="product_mini_name">Мини-духовка</p>
+                    <p class="product_mini_card_descr">MO2305/IV</p>
+                    <span class="ofer-price">3 790</span>
+                    <button class="add_item btn" data-id="13"></button>                                    
+                </div>
+            </div>
+            <div class="blender product flex-wrap offset-xs-4 col-xs-8 offset-sm-3 col-sm-9 offset-md-4 col-md-8 col-lg-9 offset-lg-3 justify-content-between">                         
+                <div class="equipment blend"><a href="#"><img src="img/blender/blender1.png"></a>
+                    <p class="product_mini_name">Настольный блендер</p>
+                    <p class="product_mini_card_descr">BL0642G/IV</p>
+                    <span class="ofer-price">3 990</span>
+                    <button class="add_item btn" data-id="14"></button>                 
+                </div>
+                <div class="equipment blend"><a href="#"><img src="img/blender/blender2.png"></a>
+                    <p class="product_mini_name">Настольный блендер</p>
+                    <p class="product_mini_card_descr">BL0642G/RD</p>
+                    <span class="ofer-price">3 990</span>
+                    <button class="add_item btn" data-id="15"></button>                
+                </div>
+                <div class="equipment blend"><a href="#"><img src="img/blender/blender3.png"></a>
+                    <p class="product_mini_name">Настольный блендер</p>
+                    <p class="product_mini_card_descr">BL0642G/OR</p>
+                    <span class="ofer-price">3 990</span>
+                    <button class="add_item btn" data-id="16"></button>                
+                </div>
+                <div class="equipment blend"><a href="#"><img src="img/blender/blender4.png"></a>
+                    <p class="product_mini_name">Настольный блендер</p>
+                    <p class="product_mini_card_descr">BL0642G/DC</p>
+                    <span class="ofer-price">3 990</span>
+                    <button class="add_item btn" data-id="17"></button>                 
+                </div>
+            </div>
+            <div class="multicooker product flex-wrap offset-xs-4 col-xs-8 offset-sm-3 col-sm-9 offset-md-4 col-md-8 col-lg-9 offset-lg-3 justify-content-between">
+                <div class="equipment align-self-center p-2 r" ><a href="#"><img src="img/multicooker/multicooker1.png"></a>
+                    <p class="product_mini_name">Мультиварка-Cкороварка</p>
+                    <p class="product_mini_card_descr">MI5040PSD/IV</p>
+                    <span class="ofer-price">12 990</span>
+                    <button class="add_item btn" data-id="18"></button>                     
+                </div>
+                <div class="equipment align-self-center p-2 r"><a href="#"><img src="img/multicooker/multicooker2.png"></a>
+                    <p class="product_mini_name">Мультиварка-Скороварка</p>
+                    <p class="product_mini_card_descr">MP5005PSD/GA</p>
+                    <span class="ofer-price">6 900</span>
+                    <button class="add_item btn" data-id="19"></button>                     
+                </div>
+                <div class="equipment align-self-center p-2 r"><a href="#"><img src="img/multicooker/multicooker3.png"></a>
+                    <p class="product_mini_name">Мультиварка-Скороварка</p>
+                    <p class="product_mini_card_descr">MP5005PSD/IV</p>
+                    <span class="ofer-price">6 900</span>
+                    <button class="add_item btn" data-id="20"></button>                      
+                </div>
+                <div class="equipment align-self-center p-2 r"><a href="#"><img src="img/multicooker/multicooker4.png"></a>
+                    <p class="product_mini_name">Мультиварка-Скороварка</p>
+                    <p class="product_mini_card_descr">MP5005PSD/OR</p>
+                    <span class="ofer-price">6 900</span>
+                    <button class="add_item btn" data-id="21"></button>                     
+                </div>
+            </div>
+            <div class="multicooker product flex-wrap offset-xs-4 col-xs-8 offset-sm-3 col-sm-9 offset-md-4 col-md-8 col-lg-9 offset-lg-3 justify-content-between">
+                <div class="equipment align-self-center p-2 r" ><a href="#"><img src="img/multicooker/multicooker5.png"></a>
+                    <p class="product_mini_name">Мультиварка-Скороварка</p>
+                    <p class="product_mini_card_descr">MP5005PSD/DC</p>
+                    <span class="ofer-price">6 900</span>
+                    <button class="add_item btn" data-id="22"></button>                
+                </div>
+                <div class="equipment align-self-center p-2 r"><a href="#"><img src="img/multicooker/multicooker6.png"></a>
+                    <p class="product_mini_name">Мультиварка-Скороварка</p>
+                    <p class="product_mini_card_descr">MP5010PSD/IV</p>
+                    <span class="ofer-price">7 790</span>
+                    <button class="add_item btn" data-id="23"></button>                 
+                </div>
+                <div class="equipment align-self-center p-2 r"><a href="#"><img src="img/multicooker/multicooker7.png"></a>
+                    <p class="product_mini_name">Мультиварка-Скороварка</p>
+                    <p class="product_mini_card_descr">MP5005PSD/RD</p>
+                    <span class="ofer-price">7 790</span>
+                    <button class="add_item btn" data-id="24"></button>                   
+                </div>
+                <div class="equipment align-self-center p-2 r"><a href="#"><img src="img/multicooker/multicooker8.png"></a>
+                    <p class="product_mini_name">Мультиварка-Скороварка</p>
+                    <p class="product_mini_card_descr">MP5005PSD/DC</p>
+                    <span class="ofer-price">7 790</span>
+                    <button class="add_item btn" data-id="25"></button>                   
+                </div>
+            </div>
+        </div>
+        <div style="margin-top:2%; margin-left: 35%">
+                <p><button id="checkout">Оформить заказ</button> &nbsp; <button id="clear_cart">Очистить корзину</button></p>
+                <div id="cart_content"></div>
+        </div>
+
+    </div>
+    <div class="container f">            
+        <div class="row centered align-self-start ">
+            <div class="footer d-flex justify-content-around">
+                <div class="data_magazine align-items-center">
+                    <h6>© 2011 - 2018</h6>
+                </div> 
+                <div class="title align-items-center"><a href="https://www.oursson.ru/">OURSSON</a></div>
+                <div class="if">
+                    <h6>интернет-магазин кулинарных инноваций и товаров для приготовления здоровой еды</h6>
+                </div>                     
+            </div>
+            <div>
+                <h6> <a class="phone" href="#"><i class="icon-phone"></i> 8 (800) 100 8 708</a></h6>
+                    <p>Пн-Вс, 8:00 - 19:00</p>
+            </div>          
+            <div class="reference d-flex  align-items-center mx-auto">                
+                <div class="align-self-center p-2 r" ><a href="https://twitter.com/wylsacom"><i class="fa fa-twitter"></i></a></div>
+                <div class="align-self-center p-2 r"><a href="http://www.facebook.com/."><i class="fa fa-facebook"></i></a></div>
+                <div class="align-self-center p-2 r"><a href="https://vk.com/"><i class="fa fa-vk"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <script src='./js/filterSelection.js'></script>    
+    <script src='./js/addCart.js'></script> 
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+  
+</body>
+</html>

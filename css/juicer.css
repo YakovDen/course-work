@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body{
+    min-height: 100%;
+    background: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing:antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin: .5% 0;
+    height: 100%;
+    min-width: 100%;
+}
+
+a{
+    font-size: 18px;
+}
+a:hover, a:focus{    
+    color: #e1223c !important;
+    text-decoration: none;
+    outline: 0;
+}
+
+.btn{
+    height: 50%;
+    margin-top: 10% !important;    
+}
+
+/* слайдер */
+.s{
+    margin-top: 2%;
+    text-align: center;
+    color: #000;
+}
+.carousel {
+    display:flex;
+  }  
+   .carousel-indicators {
+    display:flex;
+    flex-wrap: wrap;
+    bottom: -10%; 
+    right: 98%;
+    left: -2%; 
+    margin-left: -59%;      
+  }
+
+  li{
+    text-indent:0 !important;
+}
+  .chevronL{
+      margin-left: -15%;      
+  }
+  .chevronR{
+    margin-left: 78%;    
+}
+.carousel-control{
+    line-height: 85px;
+    
+}
+  .item{    
+        height:90%;
+        width: 80%;
+        margin-left: 3%;  
+  }
+  
+.list-inline-item{
+    height:30% !important;
+    width: 20% !important;
+}
+
+/* info */
+.pric1{
+    margin-left: 75%;
+}
+.pric2{
+    margin-left: 42%;
+}
+.pric3{
+    margin-left: 37%;
+}
+.pric4{
+    margin-left: 38%;
+}
+.pric5{
+    margin-left: 52%;
+}
+
+.tovar-info-box{
+    margin-left: 15%;
+}
+
+/* image big */
+.ib{
+    margin-top: 22%;
+    text-align: center;
+    color: #000;
+}
+.mini-slider{
+    margin-top: 1%;    
+}
+.mini-slider_img{
+    margin-top: 1%;
+}
+.description-box{
+    margin-top: 2%;
+}
+
+/* footer */
+/* футер */
+.f{ 
+    margin-top: 2%;
+    max-width: 100%;
+    min-height:100%;
+    height:auto !important;
+    height:100%;    
+    background: #FF0000;
+    padding: 1% 0;     
+  }
+ 
+  .f a{
+     color: #bdbdbd;
+      font-size: 20px;  
+  }
+ 
+  .footer{
+      margin-left: 4%;
+  }
+  .data_magazine{
+     width: 20%;
+     color: #000;
+     text-align: start;
+  }
+ 
+  .title{
+      margin-right: 2%;
+  }
+ 
+  .f i{     
+      color: #bdbdbd;
+      font-size: 30px;     
+  }
+ 
+  .f i:hover,a:hover, .phone i:hover{
+      color: #E6E6FA !important;
+  }
+  .if h6{
+     color: #000;
+     font-size: 15px; 
+  }
+ 
+  .phone i{     
+     color: #bdbdbd;
+     font-size: 15px;     
+ } 
+
+   /* на md */
+   @media screen and (max-width: 992px) {
+    .mini-slider_img {
+        max-width: 100% !important;
+    }  
+    .ib{
+        margin-top: 2%;        
+    }     
+  }
+
+/* на sm */
+@media screen and (max-width: 768px) {
+    .mini-slider_img {
+        max-width: 100% !important;        
+    }
+    .ib{
+        margin-top: 2%;        
+    }  
+
+}
+/* на xs */
+
+@media screen and (max-width: 560px) {
+    .mini-slider_img {
+        max-width: 100% !important;        
+    }
+    .ib{
+        margin-top: 2%;        
+    }  
+
+}

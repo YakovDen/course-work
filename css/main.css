@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body{
+    min-height: 100%;
+    background: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing:antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin: .5% 0;
+    height: 100%;
+    min-width: 100%;
+}
+
+.top-banner{    
+    background-color: #ff0000;   
+}
+a{
+    font-size: 18px;
+}
+a:hover, a:focus{    
+    color: #e1223c !important;
+    text-decoration: none;
+    outline: 0;
+}
+
+ul{
+    border-style: solid;
+    border-color: #e1223c;
+}
+.header_new_logo{
+    margin-left: -20%;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+h4,p{
+   text-indent: 25px; 
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+/*-----Боковое меню---------*/
+.w{
+    margin-top: 2%;
+}
+.vmenu{
+    text-align: center;
+}
+.vmenu h4
+    {      
+        width:250px;      
+        font-size:large;
+        font-weight:500;
+        padding:7px 15px; 
+        background:#FF0000;      
+       	
+    }
+    .vmenu h4 a
+    {
+        text-decoration:none;
+        color:#fff;
+        width:250px;
+        display:block;
+        text-align: left        
+
+    }
+    .vmenu h4:hover{
+      
+       background-color: gray;
+    	
+    }
+    .vmenu h4 a:hover{      
+      color: #000 !important;    	
+    }
+
+    .vmenu ol{
+        background:purple;	
+        font-size:13px;        
+        list-style-type:none;
+        padding:0px;
+        overflow:hidden;
+        height:0px;
+        transition:height 1s ease;       	
+    }
+
+    .vmenu ol a {
+    	color:white;
+    	text-decoration:none;
+    	width:200px;    	
+    	font-size:large;
+    	height:30px;
+     	text-align: center;	
+    }
+    .vmenu li {
+        border-bottom:solid 2px #eee;        	
+    }
+    .vmenu li:hover {
+        background:orange;	
+    }
+    .vmenu:hover #s3 {
+        height:93px;           	
+    }
+     .vmenu:hover #s4 {
+        height:245px;           	
+    }
+
+    .vmenu-requisites{
+        margin-top: 15%;
+    }
+
+.navbar-nav{
+    min-width: 100%;
+}
+
+/* слайдер Акции */
+.s{
+    margin-top: 2%;
+    text-align: center;
+    color: #000;
+}
+.action{
+    margin-bottom: 2%;
+}
+/* футер */
+.f{ 
+   margin-top: 2%;
+   max-width: 100%;
+   min-height:100%;
+   height:auto !important;
+   height:100%;    
+   background: #FF0000;
+   padding: 1% 0;     
+ }
+
+ .f a{
+    color: #bdbdbd;
+     font-size: 20px;  
+ }
+
+ .footer{
+     margin-left: 2%;
+ }
+ .data_magazine{
+    width: 20%;
+    color: #000;
+    text-align: start;
+ }
+
+ .title{
+     margin-right: 2%;
+ }
+
+ .f i{     
+     color: #bdbdbd;
+     font-size: 30px;     
+ }
+
+ .f i:hover,a:hover, .phone i:hover{
+     color: #E6E6FA !important;
+ }
+ .f h6{
+    color: #000;
+    font-size: 15px; 
+ }
+
+ .phone i{     
+    color: #bdbdbd;
+    font-size: 15px;     
+}
+
+.add_item{
+    height: 40px;
+    width: 40px;  
+    border: none;
+    background:url(../img/basket.png)no-repeat center/cover;
+}
+ 

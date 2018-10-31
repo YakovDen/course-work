@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    min-height: 100%;
+    background: #f2f2f2;
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;     
+    color: #555;
+
+    -webkit-font-smoothing:antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin: .5% 0;
+    height: 100%;
+    min-width: 100%;
+
+}
+
+.description{
+    color: #d20720;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 100;
+}
+.formLogin {	
+	/* Размер и положение */
+	width: 300px;
+	position: relative;
+	margin: 60px auto 30px;
+	padding: 10px;
+	overflow: hidden;
+	/* Стили */
+	background: #808080;
+	border-radius: 0.4em;
+	border: 1px solid #191919;
+	box-shadow: inset 0 0 2px 1px rgba(255, 255, 255, 0.08), 0 16px 10px
+		-8px rgba(0, 0, 0, 0.6);
+}
+
+.formLogin label {
+	/* Размер и положение */
+	width: 50%;
+	float: left;
+	padding-top: 9px;
+	/* Стили*/
+	color: #ddd;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 0 #000;
+	text-indent: 10px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.formLogin input[type=text], .formLogin input[type=password] {
+	/* Размер и положение */
+	width: 50%;
+	float: left;
+	padding: 8px 5px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	/* Стили */
+	background: linear-gradient(#A9A9A9, #C0C0C0);
+	border: 1px solid #C0C0C0;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+	/* Стили шрифтов */
+	font-family: 'Ubuntu', 'Lato', sans-serif;
+	color: #ffff;
+}
+
+
+.formLogin input[type=text]:hover, .formLogin input[type=password]:hover,
+	.formLogin label:hover ~ input[type=text], .formLogin label:hover ~ input[type=password]
+	{
+	background: #DCDCDC;
+}
+
+.formLogin input[type=text]:focus, .formLogin input[type=password]:focus {
+	box-shadow: inset 0 0 2px #D3D3D3;
+	background: #494d54;
+	border-color: #51cbee;
+	outline: none; /* Убираем внешние линии в Chrome */
+}
+
+.formLogin input[type=submit] {
+	/* Ширина и положение */
+	width: 100%;
+	padding: 8px 5px;
+	/* Стили */
+	border: 1px solid #0273dd; /* Откат */
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 10px 10px
+		rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+	background: #38a6f0;
+	cursor: pointer;
+	/* Стили шрифтов */
+	font-family: 'Ubuntu', 'Lato', sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 15px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.formLogin input[type=submit]:hover {
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.formLogin input[type=submit]:active {
+	background: #287db5; 
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.6);
+	border-color: #000; /* Откат */
+	border-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Линия градиента */
+.formLogin:after {
+	/* Размер и положение */
+	content: "";
+	height: 1px;
+	width: 33%;
+	position: absolute;
+	left: 20%;
+	top: 0;
+	/* Стили */
+	background: linear-gradient(left, transparent, #444, #b6b6b8, #444, transparent);
+}
+
+/* Маленькая вспышка */
+.formLogin:before {
+	/* Размер и положение */
+	content: "";
+	width: 8px;
+	height: 5px;
+	position: absolute;
+	left: 34%;
+	top: -7px;
+	/* Стили*/
+	border-radius: 50%;
+	box-shadow: 0 0 6px 4px #fff;
+}
+
+@keyframes myAnimField {  
+    0% {     
+      border: 2px solid pink;
+      
+    }
+    50%{       
+        border: 2px solid #FA8072;
+    }
+    100%{       
+        border: 2px solid red;
+    }
+    
+  }
+
+  @keyframes myAnimButton {  
+    0% {
+      background-color: pink;      
+    }
+    50%{
+        background-color: #FA8072;        
+    }
+    100%{
+        background-color: red;        
+    }
+    
+  }
+
+  .doAnimBut {
+    animation: myAnimButton 1.5s forwards;  
+   
+  }
+
+  .doAnimF {
+    animation: myAnimField 1.5s forwards;  
+   
+  }
+  /* s---string */
+.s{
+    margin-top: 2%;
+    max-width: 100%;
+    min-height:100%;
+    height:auto !important;
+    height:100%;
+    padding: 1% 0;
+}
+  
+  /* footer */
+  .f{ 
+    margin-top: 2%;
+    max-width: 100%;
+    min-height:100%;
+    height:auto !important;
+    height:100%;    
+    background: #FF0000;
+    padding: 1% 0; 
+       
+  }
+ 
+  .f a{
+     color: #bdbdbd;
+      font-size: 20px;  
+  }
+ 
+  .footer{
+      margin-left: 4%;
+  }
+   
+  .data_magazine{
+      min-width: 100px;
+      padding-top: 5%;
+  }
+  .title{
+      margin-left: 5%;
+  }
+ 
+  .f i{     
+      color: #bdbdbd;
+      font-size: 30px;     
+  }
+ 
+  .f i:hover,a:hover, .phone i:hover{
+      color: #E6E6FA !important;
+  }
+  .f h6{
+     color: #000;
+     font-size: 15px; 
+  }
+ 
+  .phone i{     
+     color: #bdbdbd;
+     font-size: 15px;     
+ }
+ 
+ .add_item{
+     height: 40px;
+     width: 40px;  
+     border: none;
+     background:url(../img/basket.png)no-repeat center/cover;
+ }

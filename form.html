@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Form</title>
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+    <link rel='stylesheet' href='https://f.usemind.org/f/1/mn2/s.css' /> 
+    <link rel="stylesheet" href="css/form.css"/>
+</head>
+<body>
+    <a href="/promotions/odinodin/" class="d-flex justify-content-center top-banner" style="background-color: #f8f5ee;">
+    <img src="img/sychuzhnyy_ferment_form.png"></a> 
+    <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="navbar-header">                                       
+                <a href="index.html" class="header_new_logo"><img src="img/oursson_logo.png"></a>                    
+            </div> 
+            <div class="title description">
+                OURSSON - интернет-магазин кулинарных инноваций и товаров для приготовления здоровой еды
+            </div>            
+        </div>         
+    </nav>
+    <div class="container">
+        <div class="row centered">
+            <div class="formLogin col-xl-6">                            
+                <form onsubmit='return validateForm(this)'>                       
+                    <div>
+                        <label for="login">Логин</label>
+                        <input type="text" name="login" id="login" placeholder="Логин" />
+                    </div>        
+                    <div class="clearfix">
+                        <label for="password">Пароль</label>
+                        <input type="password" name="password" id="password"
+                                        placeholder="Пароль" />
+                    </div>
+                    <div class="clearfix">
+                        <label for="password">Подтверждение пароля</label>
+                        <input type="password" name="confirm_password" id="confirm_password"
+                                            placeholder="Подтверждение пароля" />
+                    </div>                      
+                    <p class="clearfix">
+                        <input type="submit" name="submit" value="Регистрация"  />
+                    </p>
+                </form>                
+            </div>
+        </div>
+    </div>
+    <div class="container s">
+        <div class="row centered">
+            <div class="footer_subscribe mx-auto d-flex justify-content-around">
+                <div class="col-md-10 mt-md-0 mt-3 d-flex align-items-center   footer_title">
+                    Подпишитесь и получайте дополнительные скидки
+                </div>                
+                <div class="" >
+                    <a class="btn btn btn-danger my-2" href="#">Подписаться</a>
+                </div>               
+            </div>
+        </div>
+    </div>
+    <div class="container f">      
+            <div class="row centered align-self-start justify-content-around ">
+                    <div class="footer d-flex justify-content-between">
+                        <div class="data_magazine align-self-center">
+                           <h6><span> © 2011 - 2018</span></h6>
+                        </div> 
+                        <div class="title align-self-center"><a href="https://www.oursson.ru/">OURSSON</a></div>                        
+                    </div>
+                    <div class="contact">
+                        <h6> <a class="phone" href="#"><i class="icon-phone"></i> 8 (800) 100 8 708</a></h6>
+                             <p>Пн-Вс, 8:00 - 19:00</p>
+                    </div>          
+                    <div class="reference d-flex  align-items-center ">                
+                        <div class="align-self-center p-2 r" ><a href="https://twitter.com/wylsacom"><i class="fa fa-twitter"></i></a></div>
+                        <div class="align-self-center p-2 r"><a href="http://www.facebook.com/."><i class="fa fa-facebook"></i></a></div>
+                        <div class="align-self-center p-2 r"><a href="https://vk.com/"><i class="fa fa-vk"></i></a></div>
+                    </div>
+                </div>
+        
+        
+    </div>
+    <script src="./js/validateForm.js"></script>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
