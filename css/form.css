@@ -20,13 +20,17 @@ body{
     min-width: 100%;
 
 }
-
+.top-banner{    
+    background-color: #658182;   
+}
 .description{
     color: #d20720;
     font-size: 18px;
     line-height: 20px;
     font-weight: 100;
+    font-size: calc(0.7em + 0.5vw);
 }
+
 .formLogin {	
 	/* Размер и положение */
 	width: 300px;
@@ -200,7 +204,7 @@ body{
     min-height:100%;
     height:auto !important;
     height:100%;    
-    background: #FF0000;
+    background: #658182;
     padding: 1% 0; 
        
   }
@@ -216,6 +220,7 @@ body{
    
   .data_magazine{
       min-width: 100px;
+      color: #000;
       padding-top: 5%;
   }
   .title{
@@ -240,9 +245,31 @@ body{
      font-size: 15px;     
  }
  
+ .contact{
+    margin-left: 1%;
+}
+
  .add_item{
      height: 40px;
      width: 40px;  
      border: none;
      background:url(../img/basket.png)no-repeat center/cover;
  }
+  /* на md */
+  @media screen and (max-width: 992px) { 
+    form{
+        margin-left: 46% !important;
+    }
+    label span{
+        margin-left: -180%;
+    }
+   .data_magazine,.if{
+        display: none;
+   }
+    .f{
+        max-width: 100%;
+    }
+    .bt_input{
+        margin-left: -85%;
+    }
+  }

@@ -17,7 +17,7 @@ body{
 }
 
 .top-banner{    
-    background-color: #ff0000;   
+    background-color: #658182;   
 }
 a{
     font-size: 18px;
@@ -59,7 +59,7 @@ h4,p{
         font-size:large;
         font-weight:500;
         padding:7px 15px; 
-        background:#FF0000;      
+        background:#658182;      
        	
     }
     .vmenu h4 a
@@ -73,7 +73,7 @@ h4,p{
     }
     .vmenu h4:hover{
       
-       background-color: gray;
+       background-color: #bfb6b6;
     	
     }
     .vmenu h4 a:hover{      
@@ -81,7 +81,7 @@ h4,p{
     }
 
     .vmenu ol{
-        background:purple;	
+        background:#444;	
         font-size:13px;        
         list-style-type:none;
         padding:0px;
@@ -102,7 +102,7 @@ h4,p{
         border-bottom:solid 2px #eee;        	
     }
     .vmenu li:hover {
-        background:orange;	
+        background:#999;	
     }
     .vmenu:hover #s3 {
         height:93px;           	
@@ -111,10 +111,20 @@ h4,p{
         height:245px;           	
     }
 
-    .vmenu-requisites{
+    .rtecenter_img{
         margin-top: 15%;
+        margin-left: 19%;
+    }    
+
+    h5,h6,p,.requisites{
+        font-size: calc(0.5em + 0.5vw);
     }
 
+    .info_site h4,p{
+        font-size: calc(0.5em + 1vw); 
+        margin-left: 5%;  
+    }
+    
 .navbar-nav{
     min-width: 100%;
 }
@@ -135,7 +145,7 @@ h4,p{
    min-height:100%;
    height:auto !important;
    height:100%;    
-   background: #FF0000;
+   background: #658182;
    padding: 1% 0;     
  }
 
@@ -156,7 +166,11 @@ h4,p{
  .title{
      margin-right: 2%;
  }
-
+ .requisites{
+     width: 100%;
+     color: #000;
+     margin-left: 20%;
+ }
  .f i{     
      color: #bdbdbd;
      font-size: 30px;     
@@ -180,5 +194,81 @@ h4,p{
     width: 40px;  
     border: none;
     background:url(../img/basket.png)no-repeat center/cover;
+}
+
+/* на md */
+@media screen and (max-width: 992px) { 
+    form{       
+        margin-left: 76% !important;
+    }
+    .header_new_logo{
+        margin-left: 1%;
+    }
+    .title{
+        margin-left: 12%;
+    }
+    .info_site p,.info_site h4{
+        width: 150% !important;
+        margin-left: -18%;
+    }
+    
+    .if,.data_magazine{
+        display: none;      
+    }
+    .requisites{
+        width: 100%;
+        margin-left: 75%;
+    }
+  }
+
+/* на sm */
+@media screen and (max-width: 768px) {
+    form{       
+        margin-left: -2% !important;
+    }
+    .title{
+        margin-left: 12%;
+    }
+    .info_site p,.info_site h4{
+        width: 120% !important;
+        margin-left: -1%;
+        margin-top: 2%;
+    }
+    .btn-secondary{
+        margin-left: 25% !important;
+    }
+    .rtecenter{
+        margin-left: 55% !important;
+    }
+    .header_new_logo,.one,.rtecenter_img,.rtecenter_title,.if,.data_magazine{
+       display: none; 
+    }    
+    .requisites{
+        width: 100%;
+        margin-left: 55%;
+    }
+}
+/* на xs */
+
+@media screen and (max-width: 560px) {
+    form{       
+        margin-left: 1% !important;
+    }
+    .title{
+        margin-left: 12%;
+    }
+    .btn-secondary{
+        margin-left: 2% !important;
+    }
+    .rtecenter{
+        margin-left:12% !important;
+    }
+    .header_new_logo,.one,.rtecenter_img,.rtecenter_title,.if,.data_magazine{
+        display: none; 
+    }
+    .requisites{
+        margin-left: 25%;
+    }
+     
 }
  
