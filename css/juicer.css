@@ -94,7 +94,7 @@ h5, h4{
 
 /* image big */
 .ib{
-    margin-top: 22%;
+    margin-top: 26%;
     text-align: center;
     color: #000;
 }
@@ -120,27 +120,30 @@ h5, h4{
     padding: 1% 0;     
   }
  
-  .f a, p{
+  .f a{
      color: #bdbdbd;
       font-size: 20px;  
   }
- 
-  .f span{
-      color: #000;
+  h6,.if h6{
+     font-size: calc(1em + 1vw);
+ }
+ .footer{   
+     margin: 0%;
+     width: 100%;   
+ }
+  .data_magazine{    
+     color: #000;   
   }
-  .footer{
-      margin-left: 4%;
+  .if{    
+      margin-left: 6%;
   }
-  .data_magazine{
-     width: 20%;
-     color: #000;
-     text-align: start;
+  .requisites{    
+      color: #000;   
+      margin-left: -12%;
   }
- 
-  .title{
-      margin-right: 2%;
-  }
- 
+  .reference{
+     margin-left: 2%; 
+    }
   .f i{     
       color: #bdbdbd;
       font-size: 30px;     
@@ -149,7 +152,7 @@ h5, h4{
   .f i:hover,a:hover, .phone i:hover{
       color: #E6E6FA !important;
   }
-  .if h6{
+  .f h6{
      color: #000;
      font-size: 15px; 
   }
@@ -157,9 +160,6 @@ h5, h4{
   .phone i{     
      color: #bdbdbd;
      font-size: 15px;     
- } 
- .contact{
-     margin-left: 1%;
  }
 
    /* на md */
@@ -167,7 +167,7 @@ h5, h4{
     form{
         margin-left: 46% !important;
     }
-    .first,.data_magazine,.if{
+    .top_banner_png,.first,.if{
         display: none;
     }
     .enter{        
@@ -189,12 +189,9 @@ h5, h4{
         max-width: 100%;
         margin-left: 0%;
     }  
-    .f{
-        max-width: 100%;
-    }      
-    .contact{
-        margin-left: 20%;
-    }  
+    .requisites{      
+        margin-left: -6%;
+    }   
   }
 
 /* на sm */
@@ -220,15 +217,21 @@ h5, h4{
     }
     .dostavka{
         height: 60%;
-    } 
-    .f{
-        max-width: 100%;
-    } 
-
+    }
+    .top_banner_png,.if{
+        display: none; 
+     } 
+     .requisites{        
+        margin-left: 8%;
+        padding: 0%;
+    }
+    .data_magazine{
+        margin-left: 10%;
+    }
 }
 /* на xs */
 @media screen and (max-width: 560px) {
-    .header_new_logo{
+    .top_banner_png,.header_new_logo,.if,.data_magazine{
         display: none;
     }
     form{
@@ -252,9 +255,5 @@ h5, h4{
     } 
     .dostavka{
         height: 60%;
-    }  
-    .f{
-        max-width: 100% !important;
-    }
-
+    } 
 }
