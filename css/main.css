@@ -19,6 +19,10 @@ body{
 .top-banner{    
     background-color: #658182;   
 }
+.top_banner_png{
+    width: 80%;
+    max-width: 100%;
+}
 a{
     font-size: 18px;
 }
@@ -31,9 +35,11 @@ a:hover, a:focus{
 ul{
     border-style: solid;
     border-color: #e1223c;
+    padding: 0 2%;    
 }
 .header_new_logo{
-    margin-left: -20%;
+  max-width: 70% !important;
+  margin-left: 1%;
 }
 
 .navbar-collapse{
@@ -46,9 +52,25 @@ h4,p{
    margin-bottom: 0;
 }
 
+.container{
+    max-width: 100%;    
+}
+
+.img{
+    width: 100%;
+    padding: 0;
+}
+.fluid-img{
+    width: 100%;
+    max-width: 100%;
+
+}
+
 /*-----Боковое меню---------*/
 .w{
     margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .vmenu{
     text-align: center;
@@ -113,25 +135,24 @@ h4,p{
 
     .rtecenter_img{
         margin-top: 15%;
-        margin-left: 19%;
+        margin-left: 12%;
     }    
 
     h5,h6,p,.requisites{
         font-size: calc(0.5em + 0.5vw);
     }
-
-    .info_site h4,p{
-        font-size: calc(0.5em + 1vw); 
-        margin-left: 5%;  
-    }
     
-.navbar-nav{
-    min-width: 100%;
-}
-
+    .info_site span{
+        font-size: calc(1em + 1vw); 
+        margin-left: 4%; 
+        display:inline-block;
+        text-align: justify;
+        width:110%; 
+    }    
+    
 /* слайдер Акции */
 .one,.two{  
-    height: auto;
+    height: auto;    
 }
 .s{
     margin-top: 2%;
@@ -140,6 +161,14 @@ h4,p{
 }
 .action{
     margin-bottom: 2%;
+}
+
+.title-box-td h5{
+    font-size: calc(0.4em + 1vw);
+}
+.product_news_one_text h4{
+    font-size: calc(0.5em + 1vw); 
+    margin-bottom: 2%; 
 }
 /* футер */
 .f{ 
@@ -205,19 +234,31 @@ h4,p{
 @media screen and (max-width: 992px) { 
     .top_banner_png,.if{
         display: none;      
-    }
-    form{       
-        margin-left: 74% !important;
-    }
-    
-    .info_site p,.info_site h4{
+    }   
+    .info_site span{ 
         width: 100% !important;
-        margin-left: 20%;
+        margin-left: 14% !important;
         padding: 0%
-    }   
-    .header_new_logo{
-        margin-left: 1%;
-    }   
+    }    
+    .two{      
+       padding: 0% !important;
+    }     
+    .rtecenter_img{
+        margin-left:30% !important;
+    }
+    .rtecenter_title{
+        margin-left:26% !important;
+    } 
+    .rtecenter{
+        margin-left:33% !important;
+    }
+    .img-action{
+        height: 95%;
+        width: 100%;        
+    } 
+    .product_news_one_price_num{
+        margin-left: 74% !important;
+    } 
     .requisites{      
         margin-left: -6%;
     }    
@@ -225,20 +266,27 @@ h4,p{
 
 /* на sm */
 @media screen and (max-width: 768px) {
-    form{       
-        margin-left: -2% !important;
-        padding-left:7.4%;
-    }    
-    .info_site p,.info_site h4{
-        width: 100% !important;
-        margin-left: -1%;        
-    }
-    .btn-secondary{
-        margin-left: 0% !important;
-    }
+    .navbar-header{        
+        padding: 0%;
+    }   
     .rtecenter{
-        margin-left: 5% !important;
+        margin-left:33% !important;
     }
+    .container{
+        width: 95% !important;
+        padding: 0%;
+    }
+    .carousel-inner{
+        margin-left: 1% !important;
+    }
+    .info_site span{ 
+        width: 108% !important;
+        margin-left: 0% !important;;
+        padding: 0%
+    }         
+    .product_news_one_price_num{
+        margin-left: 76% !important;
+    } 
     .top_banner_png,.header_new_logo,.rtecenter_img,.rtecenter_title,.if{
        display: none; 
     }    
@@ -253,25 +301,31 @@ h4,p{
 
 /* на xs */
 @media screen and (max-width: 560px) {
-    form{       
-        margin-left: 1% !important;
-    }
-    .info_site p,.info_site h4{
-        width: 100% !important;
-        margin-left: 3%;        
+   
+    .container{
+        width: 94% !important;       
+    }    
+    .info_site{
+        width: 94% !important;
+        margin-left: -1%;        
     }
     .reference{
         margin-left: -6% !important;
     }    
-    .btn-secondary{
-        margin-left: 2% !important;
-    }
+    
     .rtecenter{
         margin-left:12% !important;
     }
     .top_banner_png,.header_new_logo,.one,.rtecenter_img,.rtecenter_title,.if,.data_magazine{
         display: none; 
-    }    
+    }
+    .two{
+        width: 83% !important;
+        margin-left: 5% !important;
+    } 
+    .product_news_one_price_num{
+        margin-left: 70% !important;
+    }   
      
 }
  
